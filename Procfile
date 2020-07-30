@@ -1,1 +1,1 @@
-web: gunicorn compet_tool.wsgi
+web: gunicorn compet_tool.wsgi --log-file -
